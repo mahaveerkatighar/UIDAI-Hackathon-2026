@@ -133,19 +133,19 @@ The script will generate:
 *Dramatic 90% decline from January 2025 spike to stabilized 500/month baseline*
 
 ### 2. Biometric Update Trend
-![Biometric Updates](sample_output/2_biometric_trend.png)
+![Biometric Updates](/visualizations/2_biometric_trend.png)
 *Stable 35,000-45,000 monthly updates with low variability (CV=0.13)*
 
 ### 3. Demographic Update Trend
-![Demographic Updates](sample_output/3_demographic_trend.png)
+![Demographic Updates](/visualizations/3_demographic_trend.png)
 *Event-driven patterns with peaks during school admissions and migration seasons*
 
 ### 4. Service Comparison
-![Service Comparison](sample_output/4_comparison_all_services.png)
+![Service Comparison](/visualizations/4_comparison_all_services.png)
 *Visual demonstration of update dominance (50-100x higher than enrolments)*
 
 ### 5. Peak Month Identification
-![Peak Months](sample_output/5_peak_months.png)
+![Peak Months](/visualizations/5_peak_months.png)
 *Top 5 peak months highlighted for proactive capacity planning*
 
 ---
