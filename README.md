@@ -129,7 +129,7 @@ The script will generate:
 ## 📊 Key Visualizations
 
 ### 1. Monthly Enrolment Trend
-![Enrolment Trend](sample_output/1_enrolment_trend.png)
+![Enrolment Trend](/visualizations/1_enrolment_trend.png)
 *Dramatic 90% decline from January 2025 spike to stabilized 500/month baseline*
 
 ### 2. Biometric Update Trend
