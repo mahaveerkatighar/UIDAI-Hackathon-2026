@@ -1,0 +1,19 @@
+# UIDAI Hackathon 2026 - Team BrainBox
+# Python Dependencies for Aadhaar Service Optimization Analysis
+
+# Core Data Processing
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Visualization
+matplotlib>=3.6.0
+
+# Date/Time Handling (usually comes with Python, but listed for completeness)
+python-dateutil>=2.8.0
+
+# Optional but recommended for better performance
+openpyxl>=3.0.0  # For Excel file support if needed
+
+# Development tools (optional)
+jupyter>=1.0.0  # If you want to run in Jupyter Notebook
+ipython>=8.0.0  # Enhanced Python shell
