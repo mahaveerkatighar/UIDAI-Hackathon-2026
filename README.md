@@ -201,7 +201,7 @@ See `requirements.txt` for complete list.
 
 ## 📄 Documentation
 
-**Full PDF Submission:** [Team_BrainBox_Submission.pdf](docs/Team_BrainBox_Submission.pdf)
+**Full PDF Submission:** [Team_BrainBox_Submission.pdf](Team_BrainBox_Submission.pdf)
 
 **Sections included:**
 1. Problem Statement and Approach
