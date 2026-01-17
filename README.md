@@ -24,7 +24,7 @@ This repository contains our analysis for the **UIDAI Data Hackathon 2026**, foc
 ```
 UIDAI-Hackathon-2026/
 │
-├── UIDAI_Analysis.py          # Main analysis script
+├── UIDAI.py                    # Main analysis script
 ├── README.md                   # This file
 ├── requirements.txt            # Python dependencies
 ├── .gitignore                  # Ignore data files
@@ -68,8 +68,8 @@ pip install -r requirements.txt
      - `aadhaar_demographic_update.csv`
 
 4. **Update file paths in script**
-   - Open `UIDAI_Analysis.py`
-   - Update lines 26-28 with your file paths:
+   - Open `UIDAI.py`
+   - Update the file path lines with your CSV locations:
 ```python
    ENROLMENT_FILE = r'path/to/aadhaar_monthly_enrolment.csv'
    BIOMETRIC_FILE = r'path/to/aadhaar_biometric_update.csv'
@@ -78,7 +78,7 @@ pip install -r requirements.txt
 
 5. **Run the analysis**
 ```bash
-python UIDAI_Analysis.py
+python UIDAI.py
 ```
 
 ### Output
@@ -129,23 +129,23 @@ The script will generate:
 ## 📊 Key Visualizations
 
 ### 1. Monthly Enrolment Trend
-![Enrolment Trend](/visualizations/1_enrolment_trend.png)
+![Enrolment Trend](visualizations/1_enrolment_trend.png)
 *Dramatic 90% decline from January 2025 spike to stabilized 500/month baseline*
 
 ### 2. Biometric Update Trend
-![Biometric Updates](/visualizations/2_biometric_trend.png)
+![Biometric Updates](visualizations/2_biometric_trend.png)
 *Stable 35,000-45,000 monthly updates with low variability (CV=0.13)*
 
 ### 3. Demographic Update Trend
-![Demographic Updates](/visualizations/3_demographic_trend.png)
+![Demographic Updates](visualizations/3_demographic_trend.png)
 *Event-driven patterns with peaks during school admissions and migration seasons*
 
 ### 4. Service Comparison
-![Service Comparison](/visualizations/4_comparison_all_services.png)
+![Service Comparison](visualizations/4_comparison_all_services.png)
 *Visual demonstration of update dominance (50-100x higher than enrolments)*
 
 ### 5. Peak Month Identification
-![Peak Months](/visualizations/5_peak_months.png)
+![Peak Months](visualizations/5_peak_months.png)
 *Top 5 peak months highlighted for proactive capacity planning*
 
 ---
@@ -233,7 +233,7 @@ If replicated across 500 maturing districts:
 | **Akarapu Sreenija** | Visualization & Documentation |
 | **Harini Kanukuntla** | Research & Recommendations |
 
-**Institution:** VNR Vignana Jyothi Institute of Engineering and Technology
+**Institution:** VNR Vignana Jyothi Institute of Engineering and Technology  
 **Contact:** mahaveerkatighar05@gmail.com
 
 ---
@@ -246,13 +246,13 @@ For questions or collaboration opportunities:
 
 ---
 
-## License
+## 📜 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
 - **UIDAI** for organizing the hackathon and providing high-quality datasets
 - **Hyderabad District Administration** for maintaining comprehensive Aadhaar service records
@@ -260,7 +260,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-## Version History
+## 🔄 Version History
 
 - **v1.0** (January 15, 2026) - Initial submission for UIDAI Hackathon 2026
   - Complete analysis with 5 visualizations and 4 strategic insights
@@ -268,7 +268,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**If you find this analysis useful, please star this repository!**
+**⭐ If you find this analysis useful, please star this repository!**
 
 ---
 
